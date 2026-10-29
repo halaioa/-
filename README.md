@@ -1,3 +1,4 @@
+均由DeepSeek-V4.1-Flash制作
 # 重庆高等教育智慧教育平台 · 自动学习助手 v1.3.4（答题测试版）
 
 > 对应脚本：`cqooc-auto-study-v1.3.4.user.js`
