@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>安装重庆高教自动学习助手 v1.3.4</title>
+<style>
+  body { font-family: -apple-system, "Microsoft YaHei", sans-serif; margin: 0; background: #f5f8ff; color: #17233d; }
+  .wrap { max-width: 720px; margin: 40px auto; padding: 28px 30px; background: #fff; border-radius: 14px; box-shadow: 0 12px 40px rgba(2,86,202,.12); }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  .sub { color: #64748b; font-size: 13px; margin-bottom: 22px; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 9px; background: #0256ca; color: #fff; text-decoration: none; font-weight: 700; font-size: 15px; }
+  .btn:hover { background: #0148aa; }
+  ol { line-height: 1.9; font-size: 13.5px; padding-left: 20px; }
+  code { background: #eef4ff; padding: 1px 5px; border-radius: 4px; font-size: 12.5px; }
+  .tip { margin-top: 20px; padding: 10px 12px; border-radius: 8px; background: #fffbeb; border: 1px solid #fde68a; color: #92400e; font-size: 12.5px; line-height: 1.7; }
+  .ok { margin-top: 18px; padding: 10px 12px; border-radius: 8px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; font-size: 12.5px; line-height: 1.7; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>重庆高等教育智慧教育平台 · 自动学习助手 v1.3.4</h1>
+    <div class="sub">取消 AI 学习助手在考试/测验/作业页面不可用的限制</div>
+
+    <p><a class="btn" href="cqooc-auto-study-v1.3.4.user.js">安装 / 更新到 v1.3.4</a></p>
+
+    <ol>
+      <li>点击上面的按钮，Tampermonkey（篡改猴）会弹出安装页，点 <b>“安装”</b>；</li>
+      <li><b>关闭作业/考试页标签重新进入</b>（或按 <code>Ctrl+Shift+R</code>）；</li>
+      <li>点面板上的 <b>AI</b> 按钮打开「AI 学习助手」；</li>
+      <li>在考试/测验/作业页面直接输入问题 → 点 <b>发送</b>（或 Ctrl+Enter）；</li>
+      <li>不再出现“当前是考试/测验页面，AI 学习助手不可用”的红字。</li>
+    </ol>
+
+    <div class="tip">
+      <b>v1.3.4 改了什么</b><br>
+      删除了 AI 学习助手在考试/测验/作业页面的硬拦截：打开弹窗不再提示不可用，
+      发送也不再被拦截；系统提示词不再包含“考试代答一律拒绝”，改为课程辅导与作答参考。
+      学习页仍只允许在课件（LX=1）和讨论区（LX=3）使用。
+    </div>
+
+    <div class="ok">
+      <b>边界说明</b>：自动答题的密钥/授权门禁没有变化，仍然在“答”面板里；
+      这次取消的是 AI 学习助手本身在考试页的不可用限制。
+    </div>
+  </div>
+</body>
+</html>
